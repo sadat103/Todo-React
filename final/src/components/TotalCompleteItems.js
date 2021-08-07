@@ -1,12 +1,14 @@
 import React from 'react';
 import { useSelector } from 'react-redux';
-
+import { Text } from '@chakra-ui/react';
 const TotalCompleteItems = () => {
 	const todos = useSelector((state) =>
 		state.todos.filter((todo) => todo.completed === true)
 	);
 
-	return <h4 className='mt-3'>Total complete items: {todos.length}</h4>;
+	return (
+	      <Text fontSize="3xl" fontWeight="bold"> Total complete items: {todos.length}</Text>
+	);
 };
 
 export default TotalCompleteItems;
