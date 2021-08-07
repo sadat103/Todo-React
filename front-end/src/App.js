@@ -7,7 +7,7 @@ import { Text } from '@chakra-ui/react';
 const App = () => {
 	return (
 		<div className='container bg-white p-4 mt-5'>
-			<Text fontSize="larger" fontWeight="bold">My Todo List</Text>
+			<Text ml="8" fontSize="larger" fontWeight="bold">My Todo List</Text>
 			<AddTodoForm />
 			<TodoList />
 			<TotalCompleteItems />

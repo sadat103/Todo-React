@@ -19,7 +19,7 @@ const AddTodoForm = () => {
 
 	return (
 		<Box as="form" onSubmit={onSubmit} >
-			<HStack>
+			<HStack ml="6">
 				<Input
 					w="200px"
 					fontSize="lg"
