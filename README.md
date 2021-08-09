@@ -1,6 +1,6 @@
 ## Running the Front-End code
 
-The starter code is located in its own folder. To get it:
+The front-end code is located in its own folder. To get it:
 
 - cd front-end
 - npm install
